@@ -23,7 +23,5 @@ public class MainShop {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-
-
     }
 }
