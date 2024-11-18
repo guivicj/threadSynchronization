@@ -3,9 +3,7 @@ package org.guivic;
 public class MainShop {
     public static void main(String[] args) {
 
-        int stock = 10;
-
-        Shop shop = new Shop(stock);
+        Shop shop = new Shop();
 
         Thread customer1 = new Thread(new Customer(shop, 3, 1));
         Thread customer2 = new Thread(new Customer(shop, 5, 2));
